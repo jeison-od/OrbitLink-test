@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+api/node_modules/
+webapp/node_modules/
+
+# Logs
+*.log
+logs/
+*.pid
+*.gz
+*.out
+*.seed
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# MacOS
+.DS_Store
+
+# Optional npm cache
+.npm
+
+# TypeScript
+*.tsbuildinfo
+
+# Others
+*.bak
+Thumbs.db

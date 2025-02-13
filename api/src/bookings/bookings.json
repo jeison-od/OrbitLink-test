@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+    "meetingName": "Planning Meeting",
+    "startTime": "2025-02-12T10:00:00Z",
+    "endTime": "2025-02-12T11:00:00Z"
+  },
+  {
+    "id": "8c20ab61-c68c-489c-a9da-0aeda4e55cf8",
+    "meetingName": "Design Review",
+    "startTime": "2025-02-12T13:00:00Z",
+    "endTime": "2025-02-12T14:00:00Z"
+  },
+  {
+    "meetingName": "Project Kickoff Meeting",
+    "startTime": "2025-05-13T15:00:00Z",
+    "endTime": "2025-07-13T18:00:00Z",
+    "id": "818c320a-61cd-49c5-a447-4f399d699d2d"
+  },
+  {
+    "meetingName": "Project Kickoff Meeting",
+    "startTime": "2025-08-13T15:00:00Z",
+    "endTime": "2025-08-13T18:00:00Z",
+    "id": "41d08ff1-b375-460e-b08e-a0319d9e1352"
+  },
+  {
+    "meetingName": "TEst meeting",
+    "startTime": "2025-02-13",
+    "endTime": "2025-02-22",
+    "id": "9d207a06-b2ff-4ad2-984c-01e0511ed02d"
+  },
+  {
+    "meetingName": "weffe",
+    "startTime": "2025-02-23",
+    "endTime": "2025-02-28",
+    "id": "77654758-a153-48f5-b096-cccde5433c42"
+  },
+  {
+    "meetingName": "HEllo World",
+    "startTime": "2028-09-15",
+    "endTime": "2028-12-21",
+    "id": "a7bdbfcd-5bf5-4586-9e39-f420c83ed40e"
+  }
+]
