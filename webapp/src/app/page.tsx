@@ -20,7 +20,7 @@ export default function Home() {
 
   const mutation = useMutation({
     mutationFn: async (newBooking: Partial<BookingDTO>) => {
-      return await createBooking(newBooking); // Llama a tu API para crear la reserva
+      return await createBooking(newBooking);
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["bookings"] }); 

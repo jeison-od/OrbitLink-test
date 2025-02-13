@@ -34,7 +34,7 @@ export async function createBooking(newBooking: Partial<BookingDTO>) {
   });
 
   if (!response.ok) {
-    const errorData = await response.json();  // Capturamos el cuerpo de la respuesta
+    const errorData = await response.json();
     const errorMessage = errorData.message || 'Failed to create booking';
     throw new Error(JSON.stringify({ code: response.status, message: errorMessage, data: errorData.data }));
   }
